@@ -4,6 +4,8 @@ import com.che.blog.entity.Type;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface ITypeService {
 
     Type saveType(Type type);
@@ -18,4 +20,5 @@ public interface ITypeService {
 
     Type getTypeByName(String name);
 
+    List<Type> listType();
 }

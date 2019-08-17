@@ -29,7 +29,7 @@ public class Blog {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date updateDate;
+    private Date updateTime;
 
     @ManyToOne
     private  Type type;
