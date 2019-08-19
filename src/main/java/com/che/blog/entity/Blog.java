@@ -27,6 +27,7 @@ public class Blog {
     private boolean commentabled;
     private boolean published;//声明
     private boolean recommend;//是否推荐
+    private String description;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)

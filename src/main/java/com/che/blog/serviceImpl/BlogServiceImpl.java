@@ -7,6 +7,7 @@ import com.che.blog.entity.Blog;
 import com.che.blog.entity.Type;
 import com.che.blog.exceptionHandle.NotFoundException;
 import com.che.blog.iService.IBlogService;
+import com.che.blog.util.MyBeanUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -70,7 +71,6 @@ public class BlogServiceImpl implements IBlogService {
         } else {
             blog.setUpdateTime(new Date());
         }
-
         return blogRepository.save(blog);
     }
 
@@ -81,7 +81,8 @@ public class BlogServiceImpl implements IBlogService {
         if (b == null) {
             throw new NotFoundException("没有找到喔");
         }
-        BeanUtils.copyProperties(b, blog);
+        BeanUtils.copyProperties(blog, b, MyBeanUtils.getNullPropertyNames(blog));
+        b.setUpdateTime(new Date());
         return blogRepository.save(b);
     }
 

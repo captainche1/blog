@@ -71,19 +71,24 @@ public class BlogController {
         return "admin/blogs-input";
     }
 
-
     @PostMapping("/blogs")
     public String post(Blog blog,
-                       HttpSession session,
-                       RedirectAttributes attributes) {
+                       RedirectAttributes attributes,
+                       HttpSession session) {
         blog.setUser((User) session.getAttribute("user"));
         blog.setType(iTypeService.getType(blog.getType().getId()));
         blog.setTags(iTagService.listTag(blog.getTagIds()));
-        Blog b = iBlogService.saveBlog(blog);
-        if (b == null) {
-            attributes.addFlashAttribute("message", "更新失败");
+        Blog b;
+        if (blog.getId() == null) {
+            b =  iBlogService.saveBlog(blog);
         } else {
-            attributes.addFlashAttribute("message", "更新成功");
+            b = iBlogService.updateBlog(blog.getId(), blog);
+        }
+
+        if (b == null ) {
+            attributes.addFlashAttribute("message", "操作失败");
+        } else {
+            attributes.addFlashAttribute("message", "操作成功");
         }
         return "redirect:/admin/blogs";
     }
