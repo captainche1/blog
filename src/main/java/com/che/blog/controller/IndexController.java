@@ -1,21 +1,51 @@
 package com.che.blog.controller;
 
-import com.che.blog.exceptionHandle.NotFoundException;
+import com.che.blog.iService.IBlogService;
+import com.che.blog.iService.ITagService;
+import com.che.blog.iService.ITypeService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class IndexController {
 
+    @Autowired
+    private IBlogService iBlogService;
+
+    @Autowired
+    private ITypeService iTypeService;
+
+    @Autowired
+    private ITagService iTagService;
+
     @GetMapping("/")
-    public String index(){
-//        int i = 9/0;
-//        String blog = null;
-//        if(blog==null){
-//           throw new NotFoundException("blog not found");
-//        }
-     return "error/404";
+    public String index(@PageableDefault(size = 8, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable,
+                        Model model) {
+        model.addAttribute("page",iBlogService.listBlog(pageable));
+        model.addAttribute("types", iTypeService.listTypeTop(6));
+        model.addAttribute("tags", iTagService.listTagTop(10));
+        model.addAttribute("recommendBlogs", iBlogService.listRecommendBlogTop(8));
+        return "index";
+    }
+
+    @GetMapping("/blog/{id}")
+    public String blog() {
+        return "blog";
+    }
+
+    @PostMapping("/search")
+    public String search(@PageableDefault(size = 8, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable,
+                         @RequestParam String query, Model model) {
+        model.addAttribute("page", iBlogService.listBlog("%"+query+"%", pageable));
+        model.addAttribute("query", query);
+        return "search";
     }
 }
 

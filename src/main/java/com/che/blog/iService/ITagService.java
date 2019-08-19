@@ -24,4 +24,5 @@ public interface ITagService {
 
     List<Tag> listTag(String ids);
 
+    List<Tag> listTagTop(Integer size);
 }

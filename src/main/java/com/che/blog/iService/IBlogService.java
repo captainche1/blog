@@ -5,6 +5,8 @@ import com.che.blog.entity.Blog;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface IBlogService {
 
     Blog getBlog(Long id);
@@ -16,4 +18,10 @@ public interface IBlogService {
     Blog updateBlog(Long id,Blog blog);
 
     void deleteBlog(Long id);
+
+    Page<Blog> listBlog(Pageable pageable);
+
+    Page<Blog> listBlog(String query,Pageable pageable);
+
+    List<Blog> listRecommendBlogTop(Integer size);
 }
