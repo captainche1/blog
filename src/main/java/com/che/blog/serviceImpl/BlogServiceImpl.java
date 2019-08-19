@@ -7,6 +7,7 @@ import com.che.blog.entity.Blog;
 import com.che.blog.entity.Type;
 import com.che.blog.exceptionHandle.NotFoundException;
 import com.che.blog.iService.IBlogService;
+import com.che.blog.util.MarkDownUtils;
 import com.che.blog.util.MyBeanUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -101,13 +102,26 @@ public class BlogServiceImpl implements IBlogService {
 
     @Override
     public List<Blog> listRecommendBlogTop(Integer size) {
-        Sort sort = new Sort(Sort.Direction.DESC,"updateTime");
-        Pageable pageable = new PageRequest(0,size,sort);
+        Sort sort = new Sort(Sort.Direction.DESC, "updateTime");
+        Pageable pageable = new PageRequest(0, size, sort);
         return blogRepository.findTop(pageable);
     }
 
     @Override
     public Page<Blog> listBlog(String query, Pageable pageable) {
-        return blogRepository.findByQuery(query,pageable);
+        return blogRepository.findByQuery(query, pageable);
+    }
+
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog blog = blogRepository.findById(id).get();
+        if (blog == null) {
+            throw new NotFoundException("not found");
+        }
+        Blog b = new Blog();
+        BeanUtils.copyProperties(blog,b);
+        String content = b.getContent();
+        b.setContent(MarkDownUtils.markdownToHtmlExtensions(content));
+        return b;
     }
 }
