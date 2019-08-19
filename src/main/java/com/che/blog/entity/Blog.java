@@ -17,6 +17,7 @@ public class Blog {
     @GeneratedValue
     private Long id;
     private String title;
+    @Lob
     private String content;
     private String firstPicture;
     private String flag;//原创，转载
@@ -31,8 +32,11 @@ public class Blog {
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
 
+    @Transient
+    private String tagIds;
+
     @ManyToOne
-    private  Type type;
+    private Type type;
 
     @ManyToMany(cascade = {CascadeType.PERSIST})
     private List<Tag> tags = new ArrayList<>();
@@ -44,5 +48,27 @@ public class Blog {
     private List<Comment> comments = new ArrayList<>();
 
     public Blog() {
+    }
+
+    public void init() {
+        this.tagIds = tagsToIds(this.getTags());
+    }
+
+    private String tagsToIds(List<Tag> tags) {
+        if (!tags.isEmpty()) {
+            StringBuffer ids = new StringBuffer();
+            boolean flag = false;
+            for (Tag tag : tags) {
+                if (flag) {
+                    ids.append(",");
+                } else {
+                    flag = true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        } else {
+            return tagIds;
+        }
     }
 }
