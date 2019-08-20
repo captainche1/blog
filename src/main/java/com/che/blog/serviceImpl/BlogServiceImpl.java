@@ -112,6 +112,7 @@ public class BlogServiceImpl implements IBlogService {
         return blogRepository.findByQuery(query, pageable);
     }
 
+    @Transactional
     @Override
     public Blog getAndConvert(Long id) {
         Blog blog = blogRepository.findById(id).get();
@@ -122,6 +123,7 @@ public class BlogServiceImpl implements IBlogService {
         BeanUtils.copyProperties(blog,b);
         String content = b.getContent();
         b.setContent(MarkDownUtils.markdownToHtmlExtensions(content));
+        blogRepository.updateViews(id);
         return b;
     }
 }
