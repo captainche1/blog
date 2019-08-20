@@ -74,3 +74,1131 @@
 2019-08-20 11:00:27.628  INFO 8452 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：blog
 2019-08-20 11:00:27.995  INFO 8452 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[10, {}])
 2019-08-20 11:00:28.473  INFO 8452 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:07:54.455  INFO 6928 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 6928 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 11:07:54.456  INFO 6928 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 11:07:55.127  WARN 6928 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 11:07:58.422  WARN 6928 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 11:07:58.816  INFO 6928 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.718 seconds (JVM running for 5.206)
+2019-08-20 11:08:11.676  INFO 6928 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 11:08:11.907  WARN 6928 --- [http-nio-8888-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 11:08:11.933  WARN 6928 --- [http-nio-8888-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 11:08:11.974  INFO 6928 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 11:08:21.030  INFO 6928 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 11:08:21.180  INFO 6928 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:08:21.580  INFO 6928 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 11:08:21.610  INFO 6928 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:12:43.904  INFO 10640 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 10640 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 11:12:43.905  INFO 10640 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 11:12:44.547  WARN 10640 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 11:12:47.805  WARN 10640 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 11:12:48.234  INFO 10640 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.693 seconds (JVM running for 5.581)
+2019-08-20 11:12:59.937  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 11:13:00.183  WARN 10640 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 11:13:00.208  WARN 10640 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 11:13:00.244  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 11:13:07.910  INFO 10640 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 11:13:08.054  INFO 10640 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:13:08.451  INFO 10640 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 11:13:08.482  INFO 10640 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:13:42.072  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.post, args=[Comment(id=null, nickname=kiyomi, email=807100784@qq.com, content=世界第一中单otto, avatar=null, createTime=null, blog=Blog(id=13, title=null, content=null, firstPicture=null, flag=null, views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, description=null, createTime=null, updateTime=null, tagIds=null, type=null, tags=[], user=null, comments=[]), replyComments=[], parentComment=Comment(id=-1, nickname=null, email=null, content=null, avatar=null, createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false), adminComment=false), org.apache.catalina.session.StandardSessionFacade@28f9dd])
+2019-08-20 11:13:42.382  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：redirect:/comments13
+2019-08-20 11:13:44.298  INFO 10640 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 11:13:44.394  INFO 10640 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:13:44.789  INFO 10640 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 11:13:45.178  INFO 10640 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:13:54.502  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/search, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.search, args=[Page request [number: 0, size 8, sort: updateTime: DESC], as, {}])
+2019-08-20 11:13:54.575  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：search
+2019-08-20 11:13:55.844  INFO 10640 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 11:13:55.940  INFO 10640 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:13:56.309  INFO 10640 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 11:13:56.364  INFO 10640 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:14:22.266  INFO 10640 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 11:14:22.489  INFO 10640 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 11:14:25.027  INFO 10640 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[10, {}])
+2019-08-20 11:14:25.128  INFO 10640 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:14:25.499  INFO 10640 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[10, {}])
+2019-08-20 11:14:25.633  INFO 10640 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:14:29.449  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/11, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[11, {}])
+2019-08-20 11:14:29.548  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:14:29.904  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/11, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[11, {}])
+2019-08-20 11:14:29.922  INFO 10640 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 11:14:31.771  INFO 10640 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[10, {}])
+2019-08-20 11:14:31.867  INFO 10640 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 11:14:32.218  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[10, {}])
+2019-08-20 11:14:32.341  INFO 10640 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 12:46:18.014  INFO 1300 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 1300 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 12:46:18.016  INFO 1300 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 12:46:18.765  WARN 1300 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 12:46:22.873  WARN 1300 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 12:46:23.409  INFO 1300 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.769 seconds (JVM running for 6.46)
+2019-08-20 12:46:26.907  INFO 1300 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 12:46:27.187  WARN 1300 --- [http-nio-8888-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 12:46:27.217  WARN 1300 --- [http-nio-8888-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 12:46:27.260  INFO 1300 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 12:46:34.024  INFO 1300 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 12:46:34.319  INFO 1300 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 12:46:59.369  INFO 1300 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 12:46:59.575  INFO 1300 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:02.261  INFO 1300 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}])
+2019-08-20 12:47:02.460  INFO 1300 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:03.862  INFO 1300 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/3, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}])
+2019-08-20 12:47:04.042  INFO 1300 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:08.423  INFO 1300 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}])
+2019-08-20 12:47:08.622  INFO 1300 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:10.761  INFO 1300 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/5, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}])
+2019-08-20 12:47:10.964  INFO 1300 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:12.856  INFO 1300 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}])
+2019-08-20 12:47:13.054  INFO 1300 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:13.950  INFO 1300 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/3, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}])
+2019-08-20 12:47:14.127  INFO 1300 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:15.143  INFO 1300 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/5, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}])
+2019-08-20 12:47:15.343  INFO 1300 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 12:47:17.716  INFO 1300 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 12:47:17.875  INFO 1300 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 12:47:18.264  INFO 1300 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 12:47:18.695  INFO 1300 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:00:50.931  INFO 308 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 308 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:00:50.945  INFO 308 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:00:51.667  WARN 308 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:00:56.984  WARN 308 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:00:57.408  INFO 308 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 6.836 seconds (JVM running for 7.397)
+2019-08-20 13:03:00.997  INFO 380 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 380 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:03:00.999  INFO 380 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:03:01.675  WARN 380 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:03:05.113  WARN 380 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:03:05.552  INFO 380 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.913 seconds (JVM running for 5.558)
+2019-08-20 13:03:11.239  INFO 380 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:03:11.559  WARN 380 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:03:11.589  WARN 380 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:03:11.637  INFO 380 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:03:13.219  INFO 380 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:03:13.445  INFO 380 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:03:16.821  INFO 380 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:03:17.039  INFO 380 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:03:50.279  INFO 380 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:03:50.499  INFO 380 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:03:51.013  INFO 380 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:03:51.304  INFO 380 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:03:51.988  INFO 380 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:03:52.189  INFO 380 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:04:13.683  INFO 1444 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 1444 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:04:13.685  INFO 1444 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:04:14.366  WARN 1444 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:04:17.876  WARN 1444 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:04:18.434  INFO 1444 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.107 seconds (JVM running for 5.652)
+2019-08-20 13:04:21.476  INFO 1444 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:04:21.737  WARN 1444 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:04:21.764  WARN 1444 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:04:21.803  INFO 1444 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:05:41.593  INFO 10852 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 10852 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:05:41.595  INFO 10852 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:05:42.280  WARN 10852 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:05:45.719  WARN 10852 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:05:46.157  INFO 10852 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.935 seconds (JVM running for 5.52)
+2019-08-20 13:05:46.329  INFO 10852 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=127.0.0.1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:05:46.621  WARN 10852 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:05:46.674  WARN 10852 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:05:46.720  INFO 10852 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:05:48.954  INFO 10852 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/-1, ip=127.0.0.1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:05:49.227  INFO 10852 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:05:51.071  INFO 10852 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:05:51.282  INFO 10852 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:05:52.676  INFO 10852 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:05:52.923  INFO 10852 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:05:55.806  INFO 10852 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/9, ip=127.0.0.1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 9, {}])
+2019-08-20 13:05:56.064  INFO 10852 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:05:57.853  INFO 10852 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/7, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 7, {}])
+2019-08-20 13:05:58.082  INFO 10852 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:05:59.053  INFO 10852 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/6, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 6, {}])
+2019-08-20 13:05:59.304  INFO 10852 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:06:00.438  INFO 10852 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/9, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 9, {}])
+2019-08-20 13:06:00.687  INFO 10852 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:06:01.693  INFO 10852 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/7, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 7, {}])
+2019-08-20 13:06:01.926  INFO 10852 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:06:03.732  INFO 10852 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/6, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 6, {}])
+2019-08-20 13:06:03.983  INFO 10852 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:06:05.333  INFO 10852 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/7, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 7, {}])
+2019-08-20 13:06:05.562  INFO 10852 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:06:07.675  INFO 10852 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/11, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[11, {}])
+2019-08-20 13:06:07.842  INFO 10852 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 13:06:08.228  INFO 10852 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/11, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[11, {}])
+2019-08-20 13:06:08.263  INFO 10852 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:08:50.564 ERROR 10852 --- [http-nio-8888-exec-4] c.c.b.h.ControllerExceptionHandler       : Request URL : http://localhost:8888/admin/login, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-20 13:08:50.566  WARN 10852 --- [http-nio-8888-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-08-20 13:08:56.915  INFO 10852 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:08:57.208  INFO 10852 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:08:58.236  INFO 10852 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:08:58.447  INFO 10852 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 13:08:59.413  INFO 10852 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 13:08:59.661  INFO 10852 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 13:26:58.502  INFO 8656 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 8656 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:26:58.504  INFO 8656 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:26:59.258  WARN 8656 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:27:02.627  WARN 8656 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:27:03.089  INFO 8656 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.969 seconds (JVM running for 5.535)
+2019-08-20 13:27:23.053  INFO 8656 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:27:23.301  WARN 8656 --- [http-nio-8888-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:27:23.328  WARN 8656 --- [http-nio-8888-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:27:23.365  INFO 8656 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:27:24.532  INFO 8656 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:27:24.795  INFO 8656 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:27:38.273  INFO 8656 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 13:27:38.412  INFO 8656 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 13:27:38.846  INFO 8656 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 13:27:39.250  INFO 8656 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:28:00.690  INFO 4596 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 4596 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:28:00.692  INFO 4596 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:28:01.403  WARN 4596 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:28:04.867  WARN 4596 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:28:05.246  INFO 4596 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.924 seconds (JVM running for 5.419)
+2019-08-20 13:28:18.813  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:28:19.189  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:28:31.709  INFO 4596 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:28:32.021  INFO 4596 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:28:45.781  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:28:46.096  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:29:53.452  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:29:53.767  INFO 4596 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:30:12.741  INFO 4596 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:30:13.057  INFO 4596 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:30:33.092  INFO 4596 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 13:30:33.409  INFO 4596 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 13:30:36.010  INFO 4596 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 13:30:36.210  INFO 4596 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 13:30:36.611  INFO 4596 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 13:30:36.717  INFO 4596 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:55:25.956  INFO 2572 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 2572 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:55:25.958  INFO 2572 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:55:26.702  WARN 2572 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:55:30.177  WARN 2572 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:55:30.569  INFO 2572 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.998 seconds (JVM running for 5.546)
+2019-08-20 13:55:37.553  INFO 2572 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:55:37.831  WARN 2572 --- [http-nio-8888-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:55:37.873  WARN 2572 --- [http-nio-8888-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:55:37.920  INFO 2572 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:55:38.321  INFO 2572 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:55:38.407  INFO 2572 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 13:56:23.320  INFO 9284 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 9284 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 13:56:23.322  INFO 9284 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 13:56:24.000  WARN 9284 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 13:56:27.375  WARN 9284 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 13:56:27.849  INFO 9284 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.887 seconds (JVM running for 5.394)
+2019-08-20 13:56:31.933  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:56:32.202  WARN 9284 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:56:32.236  WARN 9284 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 13:56:32.278  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:56:32.667  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:56:32.749  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 13:56:34.444  INFO 9284 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 13:56:34.603  INFO 9284 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 13:56:34.963  INFO 9284 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:56:35.011  INFO 9284 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 13:56:35.045  INFO 9284 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 13:56:35.461  INFO 9284 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:56:37.015  INFO 9284 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[10, {}])
+2019-08-20 13:56:37.136  INFO 9284 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 13:56:37.463  INFO 9284 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:56:37.495  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[10, {}])
+2019-08-20 13:56:37.541  INFO 9284 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 13:56:37.678  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 13:57:53.913  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:57:54.180  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:57:54.547  INFO 9284 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:57:54.626  INFO 9284 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 13:58:53.134  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 13:58:53.438  INFO 9284 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 13:58:53.810  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 13:58:53.908  INFO 9284 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:01:53.976  INFO 2796 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 2796 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:01:53.978  INFO 2796 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:01:54.658  WARN 2796 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:01:57.998  WARN 2796 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:01:58.410  INFO 2796 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.792 seconds (JVM running for 5.287)
+2019-08-20 14:02:11.472  INFO 2796 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:02:11.743  WARN 2796 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:02:11.770  WARN 2796 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:02:11.811  INFO 2796 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:02:12.200  INFO 2796 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:02:12.282  INFO 2796 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:05:39.967  INFO 12388 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 12388 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:05:39.969  INFO 12388 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:05:40.657  WARN 12388 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:05:44.179  WARN 12388 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:05:44.815  INFO 12388 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.206 seconds (JVM running for 5.699)
+2019-08-20 14:05:50.381  INFO 12388 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:05:50.695  WARN 12388 --- [http-nio-8888-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:05:50.726  WARN 12388 --- [http-nio-8888-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:05:50.775  INFO 12388 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:05:51.184  INFO 12388 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:05:51.280  INFO 12388 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:06:05.452  INFO 12388 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 14:06:05.637  INFO 12388 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:06:05.995  INFO 12388 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:06:06.043  INFO 12388 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 14:06:06.092  INFO 12388 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:06:06.134  INFO 12388 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 14:11:53.652  INFO 1276 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 1276 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:11:53.655  INFO 1276 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:11:54.373  WARN 1276 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:11:58.310  WARN 1276 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:11:58.724  INFO 1276 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.446 seconds (JVM running for 5.978)
+2019-08-20 14:12:02.002  INFO 1276 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:12:02.263  WARN 1276 --- [http-nio-8888-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:12:02.297  WARN 1276 --- [http-nio-8888-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:12:02.336  INFO 1276 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:12:02.380 ERROR 1276 --- [http-nio-8888-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8888-exec-7] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+
+2019-08-20 14:12:02.386 ERROR 1276 --- [http-nio-8888-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-20 14:12:02.408 ERROR 1276 --- [http-nio-8888-exec-7] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2019-08-20 14:12:10.792  INFO 1276 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:12:11.035  INFO 1276 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:12:11.046 ERROR 1276 --- [http-nio-8888-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8888-exec-4] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+
+2019-08-20 14:12:11.049 ERROR 1276 --- [http-nio-8888-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/types/{id}(id={type.id})}" (template: "index" - line 134, col 41)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-20 14:12:11.054 ERROR 1276 --- [http-nio-8888-exec-4] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2019-08-20 14:12:37.789  INFO 1276 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:12:38.026  INFO 1276 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:12:38.390  INFO 1276 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:12:38.461  INFO 1276 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:12:40.162  INFO 1276 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/5, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}])
+2019-08-20 14:12:40.339  INFO 1276 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:12:40.702  INFO 1276 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:12:40.772  INFO 1276 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:12:42.604  INFO 1276 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:12:42.844  INFO 1276 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:12:43.197  INFO 1276 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:12:43.269  INFO 1276 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:14:43.605  INFO 13048 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 13048 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:14:43.608  INFO 13048 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:14:44.317  WARN 13048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:14:47.765  WARN 13048 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:14:48.153  INFO 13048 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.929 seconds (JVM running for 5.48)
+2019-08-20 14:14:58.071  INFO 13048 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:14:58.352  WARN 13048 --- [http-nio-8888-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:14:58.383  WARN 13048 --- [http-nio-8888-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:14:58.429  INFO 13048 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:14:58.855  INFO 13048 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:14:58.941  INFO 13048 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:15:01.587  INFO 13048 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 14:15:01.782  INFO 13048 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:15:02.160  INFO 13048 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:15:02.243  INFO 13048 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:15:15.683  INFO 13048 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/5, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}])
+2019-08-20 14:15:15.871  INFO 13048 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:15:16.248  INFO 13048 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:15:16.329  INFO 13048 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:15:18.199  INFO 13048 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}])
+2019-08-20 14:15:18.390  INFO 13048 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:15:18.762  INFO 13048 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:15:18.843  INFO 13048 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:18:45.526  INFO 11636 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 11636 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:18:45.528  INFO 11636 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:18:46.236  WARN 11636 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:18:49.669  WARN 11636 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:18:50.079  INFO 11636 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.94 seconds (JVM running for 5.664)
+2019-08-20 14:19:02.655  INFO 11636 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:19:02.891  WARN 11636 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:19:02.916  WARN 11636 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:19:02.955  INFO 11636 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:19:03.320  INFO 11636 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:19:03.396  INFO 11636 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:19:04.779  INFO 11636 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 14:19:04.935  INFO 11636 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:19:04.940 ERROR 11636 --- [http-nio-8888-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8888-exec-1] Exception processing template "blog": An error happened during template parsing (template: "class path resource [templates/blog.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/blog.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.attoparser.ParseException: An error happened during template parsing (template: "class path resource [templates/blog.html]" - line 82, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/blog.html]" - line 82, col 22)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:391)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:89)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:529)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:471)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 82, Column = 22) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 80 common frames omitted
+
+2019-08-20 14:19:04.944 ERROR 11636 --- [http-nio-8888-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/blog.html]")] with root cause
+
+org.attoparser.ParseException: (Line = 82, Column = 22) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:302)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:391)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:89)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:529)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:471)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-20 14:21:20.376  INFO 4020 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 4020 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:21:20.377  INFO 4020 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:21:21.068  WARN 4020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:21:24.644  WARN 4020 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:21:25.084  INFO 4020 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.073 seconds (JVM running for 5.757)
+2019-08-20 14:21:25.319  INFO 4020 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:21:25.637  WARN 4020 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:21:25.677  WARN 4020 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:21:25.733  INFO 4020 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:21:26.441  INFO 4020 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:21:26.541  INFO 4020 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:21:27.120  INFO 4020 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 14:21:27.308  INFO 4020 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:21:27.637  INFO 4020 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:21:27.738  INFO 4020 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:21:36.245  INFO 4020 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/11, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[11, {}])
+2019-08-20 14:21:36.388  INFO 4020 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:21:36.724  INFO 4020 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=127.0.0.1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:21:36.822  INFO 4020 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:24:44.511  INFO 4344 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 4344 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:24:44.512  INFO 4344 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:24:45.182  WARN 4344 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:24:49.007  WARN 4344 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:24:49.450  INFO 4344 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 5.295 seconds (JVM running for 5.806)
+2019-08-20 14:24:55.449  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:24:55.742  WARN 4344 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:24:55.770  WARN 4344 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:24:55.817  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:24:56.464  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:24:56.549  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:24:58.100  INFO 4344 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 14:24:58.323  INFO 4344 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:24:58.699  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:24:58.788  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:24:59.089  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 14:24:59.329  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 14:24:59.745  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:24:59.835  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:25:00.240  INFO 4344 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 14:25:00.537  INFO 4344 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 14:25:00.810  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:25:00.896  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:25:04.527  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/about, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.AboutShowController.about, args=[])
+2019-08-20 14:25:04.529  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：about
+2019-08-20 14:25:04.817  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:25:04.921  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:25:30.616  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:25:30.707  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:25:36.086  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:25:36.175  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:25:58.526  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:25:58.612  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:14.409  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:14.494  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:21.222  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:21.314  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:22.116  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:22.205  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:23.263  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:23.349  INFO 4344 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:24.296  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:24.380  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:25.517  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:25.604  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:26.346  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:26.430  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:27.310  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:27.398  INFO 4344 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:28.880  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:28.966  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:34.041  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:34.130  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:34.949  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:35.034  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:36.419  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:36.507  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:42.093  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:42.181  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:48.303  WARN 4344 --- [http-nio-8888-exec-8] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:27:48.877  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:48.965  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:50.110  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:50.198  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:56.722  WARN 4344 --- [http-nio-8888-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:27:57.221  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:57.310  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:27:59.070  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:27:59.158  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:02.404  WARN 4344 --- [http-nio-8888-exec-2] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:28:02.891  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:02.979  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:05.844  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:05.929  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:07.357  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:07.447  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:13.293  WARN 4344 --- [http-nio-8888-exec-6] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:28:13.798  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:13.889  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:15.566  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:15.651  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:17.778  WARN 4344 --- [http-nio-8888-exec-7] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:28:18.282  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:18.372  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:19.405  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:19.492  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:21.405  WARN 4344 --- [http-nio-8888-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2019-08-20 14:28:21.903  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:21.991  INFO 4344 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:24.916  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:25.003  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:27.462  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:27.546  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:36.158  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:36.242  INFO 4344 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:39.221  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:39.307  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:45.297  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:45.381  INFO 4344 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:45.899  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:45.988  INFO 4344 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:46.472  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:46.561  INFO 4344 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:48.439  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:48.526  INFO 4344 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:52.520  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:52.607  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:28:57.272  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:28:57.359  INFO 4344 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:31:07.852  INFO 2332 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 2332 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:31:07.854  INFO 2332 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:31:08.528  WARN 2332 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:31:11.925  WARN 2332 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:31:12.298  INFO 2332 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.819 seconds (JVM running for 5.345)
+2019-08-20 14:31:20.110  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:31:20.218  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:31:21.423  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:31:21.497  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:31:22.187  INFO 2332 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:31:22.261  INFO 2332 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:31:23.436  INFO 2332 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:31:23.511  INFO 2332 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:04.637  INFO 2332 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:04.731  INFO 2332 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:08.920  INFO 2332 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:09.012  INFO 2332 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:10.954  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:11.049  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:13.629  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:13.722  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:48.476  INFO 2332 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:48.567  INFO 2332 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:32:50.360  INFO 2332 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:32:50.452  INFO 2332 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:33:07.906  INFO 2332 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:33:07.979  INFO 2332 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:33:14.571  INFO 2332 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:33:14.800  WARN 2332 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:33:14.827  WARN 2332 --- [http-nio-8888-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:33:14.866  INFO 2332 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:33:15.189  INFO 2332 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:33:15.267  INFO 2332 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:33:19.410  INFO 2332 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/9, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], 9, {}])
+2019-08-20 14:33:19.661  INFO 2332 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 14:33:20.073  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:33:20.147  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:33:34.685  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[13, {}])
+2019-08-20 14:33:34.849  INFO 2332 --- [http-nio-8888-exec-9] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:33:35.183  INFO 2332 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:33:35.232  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/13, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[13, {}])
+2019-08-20 14:33:35.262  INFO 2332 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:33:35.673  INFO 2332 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 14:33:50.121  INFO 2332 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/about, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.AboutShowController.about, args=[])
+2019-08-20 14:33:50.130  INFO 2332 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：about
+2019-08-20 14:33:50.418  INFO 2332 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:33:50.514  INFO 2332 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:35:26.464  INFO 9572 --- [restartedMain] com.che.blog.BlogApplication             : Starting BlogApplication on DESKTOP-M74AOK9 with PID 9572 (D:\syc\Code\Code\blog\target\classes started by win10 in D:\syc\Code\Code\blog)
+2019-08-20 14:35:26.465  INFO 9572 --- [restartedMain] com.che.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-08-20 14:35:27.136  WARN 9572 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.che.blog]' package. Please check your configuration.
+2019-08-20 14:35:30.501  WARN 9572 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-20 14:35:30.881  INFO 9572 --- [restartedMain] com.che.blog.BlogApplication             : Started BlogApplication in 4.772 seconds (JVM running for 5.422)
+2019-08-20 14:35:31.276  INFO 9572 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:35:31.653  WARN 9572 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:35:31.680  WARN 9572 --- [http-nio-8888-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-08-20 14:35:31.720  INFO 9572 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:35:32.308  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:35:32.389  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:35:35.711  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/about, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.AboutShowController.about, args=[])
+2019-08-20 14:35:35.718  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：about
+2019-08-20 14:35:35.983  INFO 9572 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:35:36.083  INFO 9572 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:35:55.410  INFO 9572 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.ArchivesShowController.archives, args=[{}])
+2019-08-20 14:35:55.687  INFO 9572 --- [http-nio-8888-exec-1] com.che.blog.aspect.LogAspect            : Result ：archives
+2019-08-20 14:35:55.969  INFO 9572 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:35:56.044  INFO 9572 --- [http-nio-8888-exec-5] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:35:59.229  INFO 9572 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TagShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 14:35:59.486  INFO 9572 --- [http-nio-8888-exec-2] com.che.blog.aspect.LogAspect            : Result ：tags
+2019-08-20 14:35:59.886  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:35:59.964  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:36:00.199  INFO 9572 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.index, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}])
+2019-08-20 14:36:00.462  INFO 9572 --- [http-nio-8888-exec-7] com.che.blog.aspect.LogAspect            : Result ：index
+2019-08-20 14:36:00.803  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:36:00.878  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:36:01.764  INFO 9572 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/blog/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.blog, args=[10, {}])
+2019-08-20 14:36:01.918  INFO 9572 --- [http-nio-8888-exec-10] com.che.blog.aspect.LogAspect            : Result ：blog
+2019-08-20 14:36:02.293  INFO 9572 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:36:02.341  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/comments/10, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.CommentController.comments, args=[10, {}])
+2019-08-20 14:36:02.369  INFO 9572 --- [http-nio-8888-exec-4] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList
+2019-08-20 14:36:02.534  INFO 9572 --- [http-nio-8888-exec-8] com.che.blog.aspect.LogAspect            : Result ：blog :: commentList
+2019-08-20 14:36:11.737  INFO 9572 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}])
+2019-08-20 14:36:11.923  INFO 9572 --- [http-nio-8888-exec-6] com.che.blog.aspect.LogAspect            : Result ：types
+2019-08-20 14:36:12.301  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Request ：LogAspect.RequestLog(url=http://localhost:8888/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.che.blog.controller.IndexController.newblogs, args=[{}])
+2019-08-20 14:36:12.377  INFO 9572 --- [http-nio-8888-exec-3] com.che.blog.aspect.LogAspect            : Result ：_fragments :: newblogList

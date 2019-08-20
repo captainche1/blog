@@ -25,7 +25,7 @@ public class TypeController {
     private ITypeService iTypeService;
 
     @GetMapping("/types")
-    public String types(@PageableDefault(size = 10, sort = {"id"}, direction = Sort.Direction.DESC)
+    public String types(@PageableDefault(size = 8, sort = {"id"}, direction = Sort.Direction.DESC)
                                 Pageable pageable, Model model) {
         //page返回json格式数据
         model.addAttribute("page", iTypeService.listType(pageable));

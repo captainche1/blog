@@ -125,13 +125,13 @@
                                 <i class="idea icon"></i>分类
                             </div>
                             <div class="right aligned column">
-                                <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                                <a href="#" th:href="@{types/-1}" target="_blank">more <i class="angle double right icon"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="ui teal segment">
                         <div class="ui fluid vertical menu">
-                            <a href="#" class="item" th:each="type : ${types}">
+                            <a href="#" th:href="@{/types/{id}(id=${type.id})}" target="_blank" class="item" th:each="type : ${types}">
                                 <span th:text="${type.name}">tag</span>
                                 <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">
                                     13
@@ -150,12 +150,12 @@
                                 <i class="tags icon"></i>标签
                             </div>
                             <div class="right aligned column">
-                                <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                                <a href="#" th:href="@{types/-1}" target="_blank">more <i class="angle double right icon"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="ui teal segment">
-                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny"
+                        <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny"
                            th:each="tag : ${tags}">
                             <span th:text="${tag.name}">tag</span>
                             <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
@@ -179,7 +179,7 @@
                 <!--二维码-->
                 <h4 class="ui horizontal divider header m-margin-top-large">嗯扫</h4>
                 <div class="ui centered card" style="width: 11em">
-                    <img src="../static/images/test.jpg" th:src="@{/images/wechat.jpg}" alt=""
+                    <img src="../static/images/test.jpg" th:src="@{/images/test.jpg}" alt=""
                          class="ui rounded image">
                 </div>
             </div>
